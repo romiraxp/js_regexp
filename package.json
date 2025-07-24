@@ -1,0 +1,39 @@
+{
+  "name": "js_regexp",
+  "version": "1.0.0",
+  "description": "**Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.",
+  "homepage": "https://github.com/romiraxp/js_regexp#readme",
+  "bugs": {
+    "url": "https://github.com/romiraxp/js_regexp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romiraxp/js_regexp.git"
+  },
+  "license": "ISC",
+  "author": "roman podkorytov",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.0",
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.31.0",
+    "eslint-plugin-jest": "^29.0.1",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "jest": "^30.0.4",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.100.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
